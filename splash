@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url('https://cdn.jsdelivr.net/gh/chroiel12/Tomato-Router-Splash-Page-With-Password@master/IMG_20191111_185729.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
+<body>
+
+<div class="bgimg">
+  <div class="topleft">
+  </div>
+  <div class="middle">	
+    <h1>Transient Place in Orion</h1>
+    <hr>
+    <p>Welcome to our place, may you enjoy your staycation</p>
+    <hr>
+    <a href="https://facebook.com/transientplaceinorion" style="color:white">Sign In</a>
+</div>
+	
+  </div>
+  <div class="bottomleft">
+    <p>Please click the sign in button to connect to the Wi-Fi network</p>
+  </div>
+
+
+</body>
+</html>
